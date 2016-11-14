@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  div {
+    margin: 20px 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    img {
+      height: 130px;
+    }
+  }
+
+  p {
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 300;
+  }
+
+}

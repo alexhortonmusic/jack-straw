@@ -1,0 +1,27 @@
+nav {
+  background-image: url('../img/ax.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 22%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  div {
+    width: 60%;
+    // margin-top: 20px;
+
+    img {
+      width: 90%;
+    }
+  }
+
+  i {
+    color: $yellow;
+    font-size: 3rem;
+    margin-top: 25px;
+    margin-right: 20px;
+  }
+}

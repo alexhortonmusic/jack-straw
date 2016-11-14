@@ -1,0 +1,22 @@
+{
+  "name": "jack-straw",
+  "version": "1.0.0",
+  "description": "Jack Straw Sawmill's website",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node_modules/.bin/bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexhortonmusic/jack-straw.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexhortonmusic/jack-straw/issues"
+  },
+  "homepage": "https://github.com/alexhortonmusic/jack-straw#readme",
+  "dependencies": {
+    "bower": "^1.8.0"
+  }
+}

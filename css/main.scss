@@ -1,0 +1,18 @@
+// color palette
+$yellow: rgba(240, 235, 216, 1);
+$taupe: rgba(180, 144, 130, 1);
+$red: rgba(152, 71, 62, 1);
+$lightbrown: rgba(168, 159, 104, 1);
+$green: rgba(65, 82, 31, 1);
+
+@import 'nav';
+@import 'intro';
+@import 'footer';
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+}
