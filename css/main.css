@@ -9,14 +9,18 @@ nav {
   flex-direction: row;
   justify-content: space-around; }
   nav div {
-    width: 60%; }
+    width: 60%;
+    position: sticky; }
     nav div img {
       width: 90%; }
-  nav i {
-    color: #f0ebd8;
-    font-size: 3rem;
-    margin-top: 25px;
-    margin-right: 20px; }
+  nav .slicknav_menu {
+    background: none;
+    width: 120px; }
+    nav .slicknav_menu .slicknav_btn {
+      margin: 20px 20px 6px; }
+
+.hideMenu {
+  display: none; }
 
 section {
   display: flex;
@@ -41,12 +45,31 @@ section {
 footer {
   height: 100px;
   background-color: #a89f68; }
+  footer div {
+    width: 42px;
+    margin: 10px auto 0; }
+    footer div i:visited,
+    footer div i:link,
+    footer div i {
+      color: #98473e; }
+    footer div i:hover,
+    footer div i:active {
+      color: #41521f; }
+  footer p {
+    font-size: .6rem;
+    text-align: center; }
 
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  height: 100%; }
+  height: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+#content {
+  flex: 1; }
 
 /*# sourceMappingURL=main.css.map */

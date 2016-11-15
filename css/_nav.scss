@@ -12,16 +12,30 @@ nav {
   div {
     width: 60%;
     // margin-top: 20px;
+    position: sticky;
 
     img {
       width: 90%;
     }
   }
 
-  i {
-    color: $yellow;
-    font-size: 3rem;
-    margin-top: 25px;
-    margin-right: 20px;
+  .slicknav_menu {
+    background: none;
+    width: 120px;
+
+    .slicknav_btn {
+      margin: 20px 20px 6px;
+    }
   }
+
+  // i {
+  //   color: $yellow;
+  //   font-size: 3rem;
+  //   margin-top: 25px;
+  //   margin-right: 20px;
+  // }
+}
+
+.hideMenu {
+  display: none;
 }

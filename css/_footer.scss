@@ -1,4 +1,25 @@
 footer {
   height: 100px;
   background-color: $lightbrown;
+
+  div {
+    width: 42px;
+    margin: 10px auto 0;
+
+    i:visited,
+    i:link,
+    i {
+      color: $red;
+    }
+
+    i:hover,
+    i:active {
+      color: $green;
+    }
+  }
+
+  p {
+    font-size: .6rem;
+    text-align: center;
+  }
 }

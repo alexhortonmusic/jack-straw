@@ -15,4 +15,12 @@ body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   height: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+// for sticky nav/footer
+#content {
+  flex: 1;
 }

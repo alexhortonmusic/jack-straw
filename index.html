@@ -6,35 +6,49 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jack Straw Sawmill | Hand-Hewn Wood Goods</title>
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" rel="stylesheet">
+  <link href="/lib/slicknav/dist/slicknav.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <script src='/lib/jquery/dist/jquery.min.js'></script>
 </head>
 <body>
   <nav>
     <div>
       <img src="/img/js-logo-1.png" alt="Jack Straw Logo">
     </div>
-    <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+    <!-- <i class="fa fa-bars fa-3x" id='navBurger' aria-hidden="true"></i> -->
   </nav>
+  <ul class='navMenu hideMenu'>
+    <li><a class='scroll' href="/about">About</a></li>
+    <li><a class='scroll' href="/for-sale">For Sale</a></li>
+    <li><a class='scroll' href="/past-items">Past Items</a></li>
+  </ul>
 
-  <section>
-    <h3>Hand-Hewn Wood Goods</h3>
-    <div>
-      <img src="/img/pic-example.png" alt="Featured Jack Straw Item">
-      <img src="/img/pic-example.png" alt="Featured Jack Straw Item">
-    </div>
-    <p>
-      Poke raclette trust fund sustainable. Brunch franzen hashtag selfies, live-edge air plant prism wolf. Salvia franzen vape.
-    </p>
-  </section>
+  <div id='content'>
+
+    <section>
+      <h3>Hand-Hewn Wood Goods</h3>
+      <div>
+        <img src="/img/pic-example.png" alt="Featured Jack Straw Item">
+        <img src="/img/pic-example.png" alt="Featured Jack Straw Item">
+      </div>
+      <p>
+        Poke raclette trust fund sustainable. Brunch franzen hashtag selfies, live-edge air plant prism wolf. Salvia franzen vape.
+      </p>
+    </section>
+
+  </div>
 
   <footer>
     <div class='contactIcons'>
-      <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+      <a href="https://www.instagram.com/jackstrawsawmill/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+
     </div>
+    <p>All Rights Reserved. Jack Straw Sawmill 2016.</p>
   </footer>
 
 
-  <script src='js/main.js'></script>
+  <script src='/lib/slicknav/dist/jquery.slicknav.min.js'></script>
+  <script src='/js/main.js'></script>
 </body>
 </html>
