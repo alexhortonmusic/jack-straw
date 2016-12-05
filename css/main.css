@@ -9,15 +9,22 @@ nav {
   flex-direction: row;
   justify-content: space-around; }
   nav div {
-    width: 60%;
-    position: sticky; }
+    width: 60%; }
     nav div img {
-      width: 90%; }
+      width: 90%;
+      transition: 0.2s; }
+    nav div .slickLogo {
+      margin-top: 40px;
+      transition: 0.2s; }
   nav .slicknav_menu {
     background: none;
     width: 120px; }
     nav .slicknav_menu .slicknav_btn {
-      margin: 20px 20px 6px; }
+      margin: 20px 30px 6px; }
+    nav .slicknav_menu .slicknav_nav {
+      font-weight: 300; }
+      nav .slicknav_menu .slicknav_nav a {
+        color: #f0ebd8; }
 
 .hideMenu {
   display: none; }
