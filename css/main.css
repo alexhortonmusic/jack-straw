@@ -1,29 +1,29 @@
-nav {
+.nav {
   background-image: url("../img/ax.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 22%;
+  min-height: 90px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
-  nav div {
+  .nav div {
     width: 60%; }
-    nav div img {
+    .nav div img {
       width: 90%;
-      transition: 0.2s; }
-    nav div .slickLogo {
+      transition: 0.23s; }
+    .nav div .slickLogo {
       margin-top: 40px;
-      transition: 0.2s; }
-  nav .slicknav_menu {
+      transition: 0.22s; }
+  .nav .slicknav_menu {
     background: none;
     width: 120px; }
-    nav .slicknav_menu .slicknav_btn {
+    .nav .slicknav_menu .slicknav_btn {
       margin: 20px 30px 6px; }
-    nav .slicknav_menu .slicknav_nav {
+    .nav .slicknav_menu .slicknav_nav {
       font-weight: 300; }
-      nav .slicknav_menu .slicknav_nav a {
+      .nav .slicknav_menu .slicknav_nav li .scroll {
         color: #f0ebd8; }
 
 .hideMenu {

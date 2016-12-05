@@ -1,7 +1,7 @@
 // create burgernav
 const makeBurger = () => {
   $('.navMenu').slicknav({
-    appendTo: 'nav',
+    appendTo: '.nav',
     label: ''
   })
 }
