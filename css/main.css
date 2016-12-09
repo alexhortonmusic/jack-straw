@@ -14,7 +14,7 @@
       width: 90%;
       transition: 0.23s; }
     .nav div .slickLogo {
-      margin-top: 40px;
+      margin-top: 80px;
       transition: 0.22s; }
   .nav .slicknav_menu {
     background: none;
@@ -49,18 +49,37 @@ section {
     margin: 0 auto;
     font-weight: 300; }
 
+about {
+  display: flex;
+  flex-direction: column; }
+  about h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 0; }
+  about div {
+    width: 130px;
+    margin: 10px auto 0; }
+    about div img {
+      height: 130px;
+      border-radius: 50%; }
+  about p {
+    width: 80%;
+    margin: 20px auto;
+    font-weight: 300; }
+
 footer {
   height: 100px;
   background-color: #a89f68; }
-  footer div {
+  footer .contactIcons {
     width: 42px;
     margin: 10px auto 0; }
-    footer div i:visited,
-    footer div i:link,
-    footer div i {
+    footer .contactIcons i:visited,
+    footer .contactIcons i:link,
+    footer .contactIcons i {
       color: #98473e; }
-    footer div i:hover,
-    footer div i:active {
+    footer .contactIcons i:hover,
+    footer .contactIcons i:active {
       color: #41521f; }
   footer p {
     font-size: .6rem;
