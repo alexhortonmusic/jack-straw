@@ -2,7 +2,7 @@
   "name": "jack-straw",
   "version": "1.0.0",
   "description": "Jack Straw Sawmill's website",
-  "main": "main.js",
+  "main": "",
   "scripts": {
     "postinstall": "node_modules/.bin/bower install"
   },
