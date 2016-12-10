@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "photo": "/img/barplate.png",
+      "name": "6-hr Patio Bar",
+      "price": "$50"
+    },
+    {
+      "photo": "/img/carousel.png",
+      "name": "Wine Carousel",
+      "price": "$25"
+    },
+    {
+      "photo": "/img/pic-example.png",
+      "name": "Folding Tray Tables",
+      "price": "$60 each"
+    },
+    {
+      "photo": "/img/short-table.png",
+      "name": "Outdoor Coffee (or wine?) Table",
+      "price": "$130"
+    },
+    {
+      "photo": "/img/turn.png",
+      "name": "Not Sure What This Is",
+      "price": "$30"
+    }
+  ]
+}

@@ -14,7 +14,7 @@
       width: 90%;
       transition: 0.23s; }
     .nav div .slickLogo {
-      margin-top: 80px;
+      margin-top: 60px;
       transition: 0.22s; }
   .nav .slicknav_menu {
     background: none;
@@ -67,6 +67,38 @@ about {
     width: 80%;
     margin: 20px auto;
     font-weight: 300; }
+
+forSale {
+  display: flex;
+  flex-direction: column; }
+  forSale h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 20px; }
+  forSale .forSaleGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    forSale .forSaleGrid .photo {
+      width: 40%;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      forSale .forSaleGrid .photo .photoWrap {
+        display: flex;
+        justify-content: center; }
+        forSale .forSaleGrid .photo .photoWrap img {
+          height: 100px;
+          width: 100px; }
+      forSale .forSaleGrid .photo .itemName, forSale .forSaleGrid .photo .itemPrice {
+        font-size: 0.5rem;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0; }
 
 footer {
   height: 100px;
